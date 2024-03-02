@@ -13,7 +13,7 @@ npx create-remix@latest --template inshore/eight-bit
 
 - [AWS deployment](https://aws.com) with [Architect](https://arc.codes/)
 - Styling with [Tailwind](https://tailwindcss.com/)
-- ChtGPT with [OpneAI] (https://platform.openai.com)
+- ChatGPT with [OpenAI] (https://platform.openai.com)
 - End-to-end testing with [Cypress](https://cypress.io)
 - Linting with [ESLint](https://eslint.org)
 - Static Types with [TypeScript](https://typescriptlang.org)
@@ -25,10 +25,10 @@ Not a fan of bits of the stack? Fork it, change it, and use `npx create-remix --
 - Init Arc so that you can then run dev:
 
   ```sh
-  npx arc  inti
+  npx arc  init
   ```
 
-- Add you https://platform.openai.com api key to the .en after copying the example.
+- Add you https://platform.openai.com api key to the .env after copying the example.
 
   ```sh
   cp env.exampl .env
