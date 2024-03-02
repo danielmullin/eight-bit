@@ -31,7 +31,7 @@ Not a fan of bits of the stack? Fork it, change it, and use `npx create-remix --
 - Add you https://platform.openai.com api key to the .env after copying the example.
 
   ```sh
-  cp env.exampl .env
+  cp env.example .env
   vi .env
   ```
 
@@ -71,7 +71,7 @@ Prior to your first deployment, you'll need to do a few things:
   npx arc env --add --env production OPEN_AI_API_SECRET_KEY [YOUR API KEY] 
   ```
 
-  If you don't have openssl installed, you can also use [1password](https://1password.com/password-generator) to generate a random secret, just replace `$(openssl rand -hex 32)` with the generated secret.
+If you don't have openssl installed, you can also use [1password](https://1password.com/password-generator) to generate a random secret, just replace `$(openssl rand -hex 32)` with the generated secret.
 
 ## Where do I find my CloudFormation?
 
